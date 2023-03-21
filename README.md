@@ -6,7 +6,6 @@ A simple calculator implementation in Go, using the Shunting Yard Algorithm to p
 
 The calculator is based on the Shunting Yard Algorithm, which converts infix expressions (normal mathematical notation) into postfix expressions (also known as Reverse Polish Notation or RPN). The postfix expression can then be evaluated easily using a stack.
 
-
 ## Features
 
 - Supports basic arithmetic operations: addition, subtraction, multiplication, and division.
@@ -28,8 +27,6 @@ The calculator is based on the Shunting Yard Algorithm, which converts infix exp
 
 6. Create the `Calculate` function: This function combines the `ShuntingYard` and `EvaluatePostfix` functions to calculate the result of an infix expression. It first converts the input string into a postfix expression using the Shunting Yard Algorithm, then evaluates the postfix expression to obtain the final result.
 
-7. The `main` function demonstrates the usage of the calculator by providing a few example expressions as input and printing their corresponding results.
-
 ## Usage
 
 1. Build the Go application:
@@ -49,3 +46,12 @@ go build -o go-calculator
 ```shell
 go test
 ```
+
+## 👥 Contributing
+
+We welcome contributions in the form of bug reports, feature requests, or pull requests. For more information, please see CONTRIBUTING.md.
+
+## 🔓 License
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
+This project is licensed under the MIT License - see the LICENSE file for details.
