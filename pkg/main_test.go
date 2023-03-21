@@ -41,6 +41,6 @@ func TestEvaluateExpression(t *testing.T) {
 		if result != tc.expected {
 			t.Errorf("Expected %f, got %f", tc.expected, result)
 		}
-		fmt.Printf("Input: %s || Expected: %f => Result: %f\n", tc.input, tc.expected, result)
+		fmt.Printf("Input: %s\nExpected: %f\nResult: %f\n\n", tc.input, tc.expected, result)
 	}
 }
